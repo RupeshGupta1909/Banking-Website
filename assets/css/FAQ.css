@@ -1,0 +1,102 @@
+.container {
+    max-width: 920px;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+
+.page-container {
+    max-width: 800px;
+    padding: 80px 24px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        padding: 64px 24px;
+    }
+}
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(209, 240, 230);
+    font-family: 'Roboto', sans-serif;
+}
+
+#lamba {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+/* navbar css starts here  */
+.bg-light {
+    background-color: #334a50 !important;
+}
+
+.navbar-brand {
+    z-index: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #11f053 !important;
+}
+
+
+.nav-link {
+    color: #eff2f6 !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover {
+    color: #0e0e0e !important;
+    background-color: #efc7c7;
+
+    transition-duration: 200ms;
+}
+
+img.bankimg {
+    height: 60px;
+    width: 100px;
+}
+img{
+    width: 1000px;
+    height: 500px;
+}
+#carder{
+    margin-left: 90px;
+    margin-top: 15px;
+    background-color: rgb(197, 239, 225);
+    margin-bottom: 10px;
+}
+.bread{
+    background-color: #efd2d2;
+    margin-top: 77px;
+    padding: 3px 24px;
+    padding-top: 5px;
+}
+.headin{
+    font-weight: bold;
+}
+.footer{
+    margin-top: 5px;
+    padding: 20px;
+    color: white;
+    background-color: #0e0e0e;
+}
+.searchin{
+    padding-left: 250px;
+   padding-right: 350px;
+   margin: 20px 0px;
+}
+div.card{
+    box-shadow: 5px 6px 4px rgb(51, 45, 45);
+}
+.form-control{
+    box-shadow: 4px 5px 3px rgb(57, 52, 52);
+}
+.btn{padding-left: 5px;
+margin: 0px 15px; box-shadow: 4px 5px 3px rgb(34, 32, 32);
+}
